@@ -1,2 +1,2 @@
 #!/bin/bash
-RUTA= $RUTA :/acción
+export PATH=$PATH:/action
