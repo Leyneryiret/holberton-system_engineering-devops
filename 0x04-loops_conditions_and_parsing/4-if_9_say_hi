@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
+# This script is displaying "Best School" 10 times and Hi
 
 counter=1
 while [ $counter -le 10 ]
@@ -7,7 +7,7 @@ do
     echo "Best School"
     if [ $counter -eq 9 ]
     then
-	echo "hi"
+	echo "Hi"
     fi
     ((counter++))
 done
